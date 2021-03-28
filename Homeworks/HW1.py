@@ -1,5 +1,11 @@
-#Explain your work
+1)Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being individually programmed.
 
-#Question 1
-for x in range(a):
-	print(a)
+2)Supervised learning is the process of learning an algorithm from the training dataset. Unsupervised learning is to find the structure and patterns from the input data. Unsupervised learning does not need any supervision. Instead, it finds patterns from the data on its own. Examples of supervised learning: Classification, regression, support vector machine Examples of unsupervised learning: Clustering, association, k-means
+
+3)Validation set is a set of examples used to tune the parameters of a classifier, for example to choose the number of hidden units in a neural network. Test set is a set of examples used only to assess the performance of a fully-specified classifier. Validation is used to determine the best performing algorithm, the test set is to put the algorithm through some tests to see how it will perform, so that we can have an idea about the algorithm's performance on unseen data.
+
+4) The main preprocessing steps are: data cleaning, data integration, data reduction, and data transformation. Data cleaning: Data cleaning refers to techniques to ‘clean’ data by removing outliers, replacing missing values, smoothing noisy data, and correcting inconsistent data. Data integration:Since data is being collected from multiple sources, data integration has become a vital part of the process. This may lead to redundant and inconsistent data, which could result in poor accuracy and speed of data model. To deal with these issues and maintain the data integrity, approaches such as tuple duplication detection and data conflict detection are sought after. Data reduction:The purpose of data reduction is to have a condensed representation of the data set which is smaller in volume, while maintaining the integrity of original. This results in efficient yet similar results. Data transformation:The final step of data preprocessing is transforming the data into form appropriate for data modeling
+
+5) Discrete data involves round, concrete numbers that are determined by counting. Continuous data involves complex numbers that are measured across a specific time interval. In other words, discrete data relates to countable items while continuous data involves concepts that are not simply countable but require detailed measurements.
+
+6) The type is a distplot, since the data is already visualized we need to standardize the data as the next step. After that we need to use principal component analysis (PCA) to reduce the size of the feature space while retaining as much of the information as possible, after that we use data splitting to finalize the preprocessing.
